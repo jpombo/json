@@ -10,7 +10,7 @@
 		"title_color": "#D71D32",
 		"subtitle_color": "#D71D32",
 		"text_color": "#313131",
-		"phone_text_color": "#FFFFFF",
+		"phone_text_color": "#000000",
 		"phone_number_color": "#FFFFFF",
 		"text_expand_color": "#6C8790",
 		"footer_color": "#313131",
