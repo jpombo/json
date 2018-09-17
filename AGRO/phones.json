@@ -15,10 +15,10 @@
 		"footer_color": "#FFFFFF",
 		"email_color": "#FFFFFF",
 		"second_title_color": "#FFFFFF",
-		"background_phones_start": "#35c737",
-		"background_phones_end": "#35c737",
+		"background_phones_start": "#1db01f",
+		"background_phones_end": "#1db01f",
 		"link_color": "#FFFFFF",
-		"icon_phones": "scpup_ic_phone_img",
+		"icon_phones": "scpup_ic_phone_img_agro",
 		"divider_color": "#FFFFFF"
 	},
 	"usefulphones": [
