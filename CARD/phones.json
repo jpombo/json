@@ -21,12 +21,16 @@
 		"icon_phones": "scpup_ic_phone_img",
 		"divider_color": "#cbcbcb"
 	},
-	"usefulphones": [{
+	"usefulphones": 
+	[
+		{
 			"type": "phone_description",
 			"title": "Central de Atendimento Bradesco Cartões",
 			"subtitle": "Consultas e transações financeiras",
 			"footer": "Atendimento 24 horas, 7 dias por semana",
-			"phones": [{
+			"phones": 
+			[
+				{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4002 0022"
 				},
@@ -49,7 +53,9 @@
 			"title": "SAC - Bradesco Cartões",
 			"subtitle": "SAC - Sugestões, Elogios, consulta ou reclamações",
 			"footer": "Atendimento 24 horas, 7 dias por semana",
-			"phones": [{
+			"phones": 
+			[
+				{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "0800 727 9988"
 				},
@@ -67,7 +73,9 @@
 			"title": "SAC - BradesCard",
 			"subtitle": "SAC - Sugestões, Elogios, consulta ou reclamações",
 			"footer": "Atendimento 24 horas, 7 dias por semana",
-			"phones": [{
+			"phones": 
+			[
+				{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "0800 730 5030"
 				},
@@ -85,21 +93,729 @@
 			"title": "MAIS TELEFONES BRADESCARD"
 		},
 		{
+			"type": "divider"
+		},
+		{
 			"type": "collapse",
 			"title": "BradesCard Elo Nacional",
-			"usefulphones": [{
-				"type": "phone_description",
-				"phones": [{
-						"name": "Capitais e regiões metropolitanas",
-						"number": "4004 7332"
-					},
-					{
-						"name": "Demais regiões",
-						"number": "0800 701 7332"
-					}
-				],
-				"footer": "De segunda a sábado, das 8h às 22h"
-			}]
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "collapse",
+			"title": "BradesCard Mastercard Gold",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "BradesCard Mastercard Internacional",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "BradesCard Mastercard Nacional",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "C&A+",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 0127"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 730 5030"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "C&A MasterCard",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 0127"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 730 5030"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "C&A Visa",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 0127"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 730 5030"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Cattan",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Clube Angeloni",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De domingo a domingo, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Coop Fácil e Coop Fácil MasterCard",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "3004 3024"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 721 3024"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Coop Fácil Visa Nacional",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "3004 3024"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 721 3024"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Coop Fácil Visa Internacional",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "3004 3024"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 721 3024"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "CVC",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Dorinhos",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Dotz",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Eskala",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Esplanada",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "LeBiscuit",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Lojas Americanas",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Lojas Rede",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Luigi Bertolli",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4003 4943"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 880 4943"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Luigi Bertolli Visa e MasterCard",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "3004 3024"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 721 3024"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Makro",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "MateusCard",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Pague Menos",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Passarela",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "SportCard",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "Tele Rio",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "collapse",
+			"title": "TNG",
+			"usefulphones":
+			[
+				{
+					"type": "phone_description",
+					"phones": 
+					[
+						{
+							"name": "Capitais e regiões metropolitanas",
+							"number": "4004 7332"
+						},
+						{
+							"name": "Demais regiões",
+							"number": "0800 701 7332"
+						}
+					],
+					"footer": "De segunda a sábado, das 8h às 22h"
+				}
+			]
+		},
+		{
+			"type": "divider"
 		}
 	]
 }
