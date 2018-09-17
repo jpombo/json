@@ -89,7 +89,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "BradesCard Mastercard Gold",
+			"title": "BradesCard Mastercard Gold",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -106,7 +106,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "BradesCard Mastercard Internacional",
+			"title": "BradesCard Mastercard Internacional",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -123,7 +123,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "BradesCard Mastercard Nacional",
+			"title": "BradesCard Mastercard Nacional",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -140,7 +140,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "C&A+",
+			"title": "C&A+",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 0127"
@@ -157,7 +157,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "C&A MasterCard",
+			"title": "C&A MasterCard",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 0127"
@@ -174,7 +174,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "C&A Visa",
+			"title": "C&A Visa",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 0127"
@@ -191,7 +191,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Cattan",
+			"title": "Cattan",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -208,7 +208,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Clube Angeloni",
+			"title": "Clube Angeloni",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -225,7 +225,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Coop Fácil e Coop Fácil MasterCard",
+			"title": "Coop Fácil e Coop Fácil MasterCard",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "3004 3024"
@@ -242,7 +242,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Coop Fácil Visa Nacional",
+			"title": "Coop Fácil Visa Nacional",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "3004 3024"
@@ -259,7 +259,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Coop Fácil Visa Internacional",
+			"title": "Coop Fácil Visa Internacional",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "3004 3024"
@@ -276,7 +276,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "CVC",
+			"title": "CVC",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -293,7 +293,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Dorinhos",
+			"title": "Dorinhos",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -310,7 +310,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Dotz",
+			"title": "Dotz",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -327,7 +327,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Eskala",
+			"title": "Eskala",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -344,7 +344,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Esplanada",
+			"title": "Esplanada",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -361,7 +361,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "LeBiscuit",
+			"title": "LeBiscuit",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -378,7 +378,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Lojas Americanas",
+			"title": "Lojas Americanas",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -395,7 +395,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Lojas Rede",
+			"title": "Lojas Rede",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -412,7 +412,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Luigi Bertolli",
+			"title": "Luigi Bertolli",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4003 4943"
@@ -429,7 +429,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Luigi Bertolli Visa e MasterCard",
+			"title": "Luigi Bertolli Visa e MasterCard",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "3004 3024"
@@ -446,7 +446,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Makro",
+			"title": "Makro",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -463,7 +463,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "MateusCard",
+			"title": "MateusCard",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -480,7 +480,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Pague Menos",
+			"title": "Pague Menos",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -497,7 +497,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Passarela",
+			"title": "Passarela",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -514,7 +514,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "SportCard",
+			"title": "SportCard",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -531,7 +531,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "Tele Rio",
+			"title": "Tele Rio",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
@@ -548,7 +548,7 @@
 		},
 		{
 			"type": "collapse",
-			"subtitle": "TNG",
+			"title": "TNG",
 			"phones": [{
 					"name": "Capitais e regiões metropolitanas",
 					"number": "4004 7332"
