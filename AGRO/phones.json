@@ -1,0 +1,92 @@
+{
+	"version": 1,
+	"configs": {
+		"font_regular": "NewJuneBook",
+		"font_medium": "NewJuneMedium",
+		"font_semibold": "NewJuneSemibold",
+		"font_bold": "NewJuneBold",
+		"background": "#000000",
+		"title_color": "#FFFFFF",
+		"subtitle_color": "#FFFFFF",
+		"text_color": "#FFFFFF",
+		"phone_text_color": "#FFFFFF",
+		"phone_number_color": "#FFFFFF",
+		"text_expand_color": "#FFFFFF",
+		"footer_color": "#FFFFFF",
+		"email_color": "#FFFFFF",
+		"second_title_color": "#FFFFFF",
+		"background_phones_start": "#35c737",
+		"background_phones_end": "#35c737",
+		"link_color": "#FFFFFF",
+		"icon_phones": "scpup_ic_phone_img",
+		"divider_color": "#FFFFFF"
+	},
+	"usefulphones": [
+		{
+			"type": "phone_description",
+			"title": "Central de Crédito",
+			"subtitle": "Atendimento de sugunda a sexta-feira, das 8h às 20h. Aos sábados, das 9h às 15h",
+			"footer": "Atendimento personalizado, dia e noite, 7 dias por semana",
+			"phones": [
+				{
+					"number": "0800 273 3486"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "phone_description",
+			"title": "Fone Fácil Bradesco",
+			"subtitle": "Consulta e transações financeiras",
+			"footer": "Atendimento personalizado, dia e noite, 7 dias por semana",
+			"phones": [
+				{
+					"name": "Capitais e regiões metropolitanas",
+					"number": "4002 0022"
+				},
+				{
+					"name": "Demais Regiões",
+					"number": "0800 570 0022"
+				},
+				{
+					"name": "Deficiência auditiva / fala",
+					"number": "0800 722 0099"
+				},
+				{
+					"name": "Acesso do exterior",
+					"number": "4002 0022",
+					"prefix": "55 11"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "phone_description",
+			"title": "SAC - Serviço de Atendimento ao Consumidor",
+			"subtitle": "Sugestões, elogios, consultas ou reclamações.",
+			"phones": [
+				{
+					"name": "Atendimento 24 horas, todos os dias da semana",
+					"number": "0800 704 8383"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "phone_description",
+			"title": "Ouvidoria",
+			"phones": [
+				{
+					"name": "De seg. a sexta, das 8h às 18h, exceto feriados",
+					"number": "0800 727 9933"
+				}
+			]
+		}
+	]
+}
