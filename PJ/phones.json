@@ -813,7 +813,7 @@
 				},
 				{
 					"type": "phone_description",
-					"subtitle": "Comercialização:",
+					"header": "Comercialização:",
 					"phones": 
 					[
 						{
