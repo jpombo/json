@@ -812,12 +812,15 @@
 					"type": "divider"
 				},
 				{
+					"type": "header",
+					"title": "Comercialização:",
+					"subtitle": "Por meio da agência detentora da conta ou pela central de comercialização:"
+				},
+				{
 					"type": "phone_description",
-					"header": "Comercialização:",
 					"phones": 
 					[
 						{
-							"name": "Por meio da agência detentora da conta ou pela central de comercialização:",
 							"number": "0800 728 1010"
 						}
 					]
