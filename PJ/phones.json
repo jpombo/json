@@ -552,7 +552,8 @@
 			"usefulphones": 
 			[
 				{
-					"type": "Meios de Comunicação",
+					"type": "header",
+					"title": "Meios de Comunicação",
 					"subtitle": "Capitais e Regiões Metropolitanas:"
 				},
 				{
