@@ -554,7 +554,7 @@
 				{
 					"type": "phone_description",
 					"second_title":"Central de Serviços e Apoio aos Portadores de Def. Auditiva",
-					"title": "Meios de Comunicação",
+					"header": "Meios de Comunicação",
 					"phones": 
 					[
 						{
