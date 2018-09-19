@@ -411,13 +411,15 @@
 			"usefulphones": 
 			[
 				{
+					"type": "header",
+					"title": "Meios de Comunicação",
+					"subtitle": "Capitais e Regiões Metropolitanas:"
+				},
+				{
 					"type": "phone_description",
-					"second_title": "Central de Apoio ao Internet Banking e Bradesco Celular",
-					"header": "Meios de Comunicação",
 					"phones": 
 					[
 						{
-							"name": "Capitais e Regiões Metropolitanas:",
 							"number": "3003 0237"
 						}
 					]
