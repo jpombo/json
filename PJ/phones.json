@@ -552,15 +552,13 @@
 			"usefulphones": 
 			[
 				{
-					"type": "header",
-					"title": "Meios de Comunicação",
-					"subtitle": "Capitais e Regiões Metropolitanas:"
-				},
-				{
 					"type": "phone_description",
+					"second_title":"Central de Serviços e Apoio aos Portadores de Def. Auditiva",
+					"subtitle": "Meios de Comunicação",
 					"phones": 
 					[
 						{
+							"name": "Capitais e Regiões Metropolitanas:",
 							"number": "4004 0099"
 						}
 					]
