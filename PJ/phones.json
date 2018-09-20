@@ -271,7 +271,7 @@
 				{
 					"type": "link_description",
 					"title": "Solicite uma proposta agora!",
-					"link": "www.google.com"
+					"link": "m.alelopme.com.br"
 				},
 				{
 					"type": "divider"
@@ -773,10 +773,12 @@
 				{
 					"type": "phone_description",
 					"second_title": "Cartões de Crédito American Express (Amex)",
-					"header": "Meios de Comunicação",
-					"title": "Central de atendimento:",
+					"header": "Central de atendimento:",
 					"phones": 
 					[
+						{
+							"linktitle": "Meios de Comunicação"
+						},
 						{
 							"name": "Capitais e regiões metropolitanas:",
 							"number": "4004 2639"
@@ -1111,10 +1113,16 @@
 				{
 					"type": "phone_description",
 					"second_title": "Capitalização",
-					"header": "Central de Relacionamento",
-					"subtitle": "2ª via de título, consulta da data de débito, informações sobre a situação de Título.",
 					"phones": 
 					[
+    				{
+				    	"linktitle": "Fale Conosco",
+				    	"link": "Acesse o Fale Conosco no bradesco.com.br para registrar reclamações, obter informação e enviar sugestões ou elogios."
+				    },
+    				{
+				    	"linktitle": "Central de Relacionamento",
+				    	"link": "2ª via de título, consulta da data de débito, informações sobre a situação de Título."
+				    },
 						{
 							"name": "Capitais e regiões metropolitanas:",
 							"number": "4004 4436"
@@ -1124,14 +1132,6 @@
 							"number": "0800 570 0022"
 						}
 					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Fale Conosco",
-					"subtitle": "Acesse o Fale Conosco no bradesco.com.br para registrar reclamações, obter informação e enviar sugestões ou elogios."
 				},
 				{
 					"type": "divider"
@@ -1181,6 +1181,14 @@
 					"phones": 
 					[
 						{
+							"linktitle": "Finalidade",
+							"link": "Informação e Adesão"
+						},
+						{
+							"linktitle": "Horário",
+							"link": "Dias úteis das 07h30 às 19h30"
+						},
+						{
 							"name": "Capitais e Regiões Metropolitanas:",
 							"number": "4002 0022"
 						}
@@ -1211,22 +1219,6 @@
 							"number": "3684 2151"
 						}
 					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Informação e Adesão."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Dias úteis das 07h30 às 19h30."
 				},
 				{
 					"type": "divider"
