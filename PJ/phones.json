@@ -1255,11 +1255,10 @@
 				{
 					"type": "phone_description",
 					"second_title": "Seguros",
-					"header": "Meios de Comunicação",
 					"phones": 
 					[
 						{
-							"name": "Acidentes Pessoais:",
+							"name": "Meios de Comunicação<br>Acidentes Pessoais:</br>",
 							"number": "0800 701 2703"
 						}
 					]
