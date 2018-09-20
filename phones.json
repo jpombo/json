@@ -1,37 +1,44 @@
 {
 	"version": 1,
-	"configs": 
-	{
-		"font_regular": "NewJuneBook",
-		"font_medium": "NewJuneMedium",
-		"font_semibold": "NewJuneSemibold",
-		"font_bold": "NewJuneBold",
+	"configs": {
+		"font": "NewJuneBook",
 		"background": "#FFFFFF",
-		"title_color": "#D71D32",
-		"subtitle_color": "#D71D32",
-		"text_color": "#313131",
-		"phone_text_color": "#000000",
-		"phone_number_color": "#FFFFFF",
-		"text_expand_color": "#6C8790",
-		"footer_color": "#313131",
-		"email_color": "#D71D32",
-		"second_title_color": "#297ef5",
-		"background_phones_start": "#779099",
-		"background_phones_end": "#647e84",
-		"link_color": "#D71D32",
-		"icon_phones": "scpup_ic_phone_img",
-		"divider_color": "#cbcbcb"
+		"textcolor": "#313131",
+		"background_start": "#779099",
+		"background_end": "#647e84",
+		"linkcolor": "#D71D32",
+		"icon": "scpup_ic_phone_img",
+		"dividercolor": "#cbcbcb",
+		"size": "12",
+		"icon_collapse_open": "",
+		"icon_collapse_close": "",
+		"icon_expand": "",
+		"icon_action_description": ""
 	},
-	"usefulphones": 
-	[
-		{
-			"type": "phone_description",
+	"usefulphones": [{
+			"type": "text",
 			"title": "CENTRAL DE RELACIONAMENTO",
-			"subtitle": "Cliente Pessoa Júridica",
-			"header": "Para transações, consultas e contratações:",
-			"phones": 
-			[
-				{
+			"color": "#D71D32",
+			"font": "NewJuneBook",
+			"size": "16"
+		},
+		{
+			"type": "text",
+			"title": "Cliente Pessoa Júridica",
+			"color": "#D71D32",
+			"font": "NewJuneBook",
+			"size": "14"
+		},
+		{
+			"type": "text",
+			"title": "Para transações, consultas e contratações:",
+			"color": "#000000",
+			"font": "NewJuneBook",
+			"size": "14"
+		},
+		{
+			"type": "phones",
+			"phones": [{
 					"name": "Capitais e regiões metropolitanas (Opção 5)",
 					"number": "3003 1000",
 					"prefix": ""
@@ -52,61 +59,37 @@
 			"type": "divider"
 		},
 		{
-			"type": "phone_description",
-			"title": "SAC",
-			"subtitle": "Serviço de Atendimento ao Consumidor",
-			"header": "Para reclamações, dúvidas e cancelamentos:",
-			"phones": 
-			[
-				{
-					"name": "24h por dia, 7 dias por semana",
-					"number": "0800 704 8383"
-				}
-			]
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "collapse",
+			"type": "group",
+			"action": "collapse",
 			"title": "MAIS TELEFONES",
-			"usefulphones": [
+			"color": "#D71D32",
+			"font": "NewJuneBook",
+			"size": "16",
+			"icon_collapse_open": "",
+			"icon_collapse_close": "",
+			"usefulphones": [{
+					"type": "text",
+					"title": "Alô Bradesco Ouvidoria",
+					"color": "#D71D32",
+					"font": "NewJuneBook",
+					"size": "14"
+				},
 				{
-					"type": "phone_description",
-					"subtitle": "Alô Bradesco / Ouvidoria",
-					"phones": [
-						{
-							"name": "SAC - Serviços de Atendimento ao Consumidor",
-							"number": "0800 704 8383"
-						}
-					],
-					"footer" : "Cancelamento, Reclamações e informações."
+					"type": "phones",
+					"phones": [{
+						"name": "SAC - Serviço de Atendimento ao Consumidor",
+						"number": "0800 704 8383"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Cancelamento, Reclamações e informações",
+					"color": "#000000",
+					"font": "NewJuneBook",
+					"size": "12"
 				},
 				{
 					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": [
-						{
-							"name": "Deficientes Auditivos ou de Fala",
-							"number": "0800 704 8383"
-						}
-					],
-					"footer" : "Atendimento 24h, 7 dias por semana."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": [
-						{
-							"name": "Ouvidoria",
-							"number": "0800 704 8383"
-						}
-					],
-					"footer" : "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados"
 				}
 			]
 		},
@@ -114,48 +97,67 @@
 			"type": "divider"
 		},
 		{
-			"type": "expand",
-			"header": "Alô Bradesco / Ouvidoria",
-			"usefulphones": 
-			[
+			"type": "group",
+			"action": "expand",
+			"title": "Alô Bradesco / Ouvidoria",
+			"color": "#D71D32",
+			"font": "NewJuneBook",
+			"size": "16",
+			"icon_collapse_open": "",
+			"icon_collapse_close": "",
+			"usefulphones": [{
+					"type": "text",
+					"title": "Alô Bradesco",
+					"color": "#297EF5",
+					"font": "NewJuneBook",
+					"size": "16"
+				},
 				{
-					"type": "phone_description",
-					"second_title": "Alô Bradesco",
-					"phones": 
-					[
-						{
-							"name": "SAC - Serviço de Atendimento ao Consumidor<br />Cancelamentos, Reclamações e Informações",
-							"number": "0800 704 8383"
-						}
-					]
+					"type": "text",
+					"title": "SAC - Serviço de Atendimento ao Consumidor",
+					"color": "#000000",
+					"font": "NewJuneBook",
+					"size": "14"
+				},
+
+				{
+					"type": "text",
+					"title": "Canelamentos, Reclamações e informações",
+					"color": "#000000",
+					"font": "NewJuneBook",
+					"size": "14"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 704 8383"
+					}]
 				},
 				{
 					"type": "divider"
 				},
 				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Deficiente Auditivo ou de Fala",
-							"number": "0800 722 0099"
-						}
-					],
-					"footer": "Atendimento 24 horas, 7 dias por semana"
+					"type": "text",
+					"title": "Deficiente Auditivo ou de Fala",
+					"color": "#000000",
+					"font": "NewJuneBook",
+					"size": "14"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 722 0099"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Atendimento 24 horas, 7 dias por semana",
+					"color": "#000000",
+					"font": "NewJuneBook",
+					"size": "14"
 				},
 				{
 					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Ouvidoria",
-							"number": "0800 727 9933"
-						}
-					],
-					"footer" : "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados"
 				}
 			]
 		},
@@ -163,1378 +165,42 @@
 			"type": "divider"
 		},
 		{
-			"type": "expand",
-			"header": "Fone Fácil Bradesco",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Fone Fácil Bradesco",
-					"header": "Por meio deste canal, você consulta a qualquer momento, o saldo de suas contas e realiza transações bancárias em nosso Atendimento Personalizado, <b>dia e noite, 7 dias por semana:</b>",
-					"subtitle": "(Realizações de Transações Financeiras)",
-					"phones": 
-					[
-						{
-							"name": "Capitais e Regiões Metropolitanas:",
-							"number": "4002 0022"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais Regiões:",
-							"number": "0800 570 0022"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Acesso do Exterior:",
-							"number": "4002 0022",
-							"prefix": "55 11"
-						}
-					],
-					"footer" : "Para utilizar esse serviço, é necessário que você possua a senha de quatro dígitos, que pode ser cadastrada em sua Agência e a Chave de Segurança Bradesco (Eletrônica ou Cartão)."
-				}
-			]
+			"type": "link_description",
+			"title": "Solicite uma proposta agora!",
+			"color": "#313131",
+			"font": "NewJuneBook",
+			"size": "12",
+			"link": "m.alelopme.com.br"
 		},
 		{
 			"type": "divider"
 		},
 		{
-			"type": "expand",
-			"header": "Central de Crédito",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Central de Crédito",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "0800 273 3486"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Informações gerais sobre as linhas de crédito oferecidas pelo Bradesco e solicitação do Limite de Crédito Pessoal disponível."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "segunda a sexta-feira, das 8h às 20h, aos sábados, das 9h às 15h"
-				}
-			]
+			"type": "email",
+			"title": "E-mail",
+			"title_color": "#313131",
+			"title_font": "NewJuneBook",
+			"title_size": "12",
+			"link": "previdencia@bradesco.com.br",
+			"link_color": "#313131",
+			"link_font": "NewJuneBook",
+			"link_size": "12"
 		},
 		{
 			"type": "divider"
 		},
 		{
-			"type": "expand",
-			"header": "Cartões Bradesco Alelo",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Cartões Bradesco Alelo",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "4003 3225"
-						}
-					]
-				},
-				{
-					"type": "link_description",
-					"title": "Solicite uma proposta agora!",
-					"link": "m.alelopme.com.br"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade da Central de Vendas",
-					"subtitle": "Oferecer ao cliente a melhor e a mais eficiente Solução em meios de pagamento do mercado. Alelo simplifica a gestão da sua empresa e leva a qualidade de vida para seus colaboradores."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 9h às 19h"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"header": "Central de Implementação e Suporte a pedidos",
-					"phones": 
-					[
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "3003 8895"
-						},
-						{
-							"name": "Demais regiões:",
-							"number": "0800 333 8895"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 9h às 19h"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"header": "Atendimento a Empresa Especializado em Vale-Transporte",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "4003 3553"
-						},
-						{
-							"name": "Demais regiões:",
-							"number": "0800 333 8895"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 9h às 19h"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"header": "Atendimento a Empresa - Pós Venda Para Clientes Alelo",
-					"phones": 
-					[
-						{
-							"name": "SP e grande SP:",
-							"number": "4003 7779"
-						},
-						{
-							"name": "Demais regiões:",
-							"number": "0800 702 4545"
-						}
-					]
-				}
-			]
+			"type": "action_description",
+			"description": "",
+			"description_color": "#313131",
+			"description_font": "NewJuneBook",
+			"description_size": "12",
+			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
+			"title_color": "#313131",
+			"title_font": "NewJuneBook",
+			"title_size": "12",
+			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
 		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Investimentos",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Investimentos",
-					"phones": 
-					[
-						{
-							"name": "Capitais e Regiões Metropolitanas:",
-							"number": "4020 1414"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais localidades:",
-							"number": "0800 704 1414"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Em dias úteis, 8h às 20h - Horário de Brasília."
-				}
-			]
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Central de Apoio ao Internet Banking e Bradesco Celular",
-			"usefulphones": 
-			[
-				{
-					"type": "header",
-					"title": "Meios de Comunicação",
-					"subtitle": "Capitais e Regiões Metropolitanas:"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"number": "3003 0237"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais Regiões:",
-							"number": "0800 701 0237"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"footer": "Obs.: Não aceita ligações a cobrar.",
-					"phones": 
-					[
-						{
-							"name": "Ligações do Exterior:",
-							"number": "3003 0237",
-							"prefix": "(55) 11"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Suporte à internet para clientes Bradesco Pessoa Física."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 06h30 às 0h, sábados, domingos e feriados das 08h00 às 22h00."
-				}
-			]
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Central de Relacionamento Apoio à Empresa (Bradesco Net Empresa)",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Central de Relacionamento Apoio à Empresa (Bradesco Net Empresa)",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Capitais e Regiões Metropolitanas:",
-							"number": "3003 1000"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais Regiões:",
-							"number": "0800 202 1000"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Acesso do exterior:",
-							"number": "3003 1000",
-							"prefix": "(55) 11"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "email",
-					"title": "E-mail",
-					"link": "apoioaempresa@bradesco.com.br"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Suporte à internet para clientes Bradesco Pessoa Jurídicas."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 07h às 22h, sábados das 7h às 18h, exceto feriados nacionais."
-				}
-			]
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Central de Serviços e Apoio aos Portadores de Def. Auditiva",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title":"Central de Serviços e Apoio aos Portadores de Def. Auditiva",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Capitais e Regiões Metropolitanas:",
-							"number": "4004 0099"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais Localidades:",
-							"number": "0800 722 0099"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Informações e dúvidas em geral sobre os produtos e serviços do Bradesco."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Todos os dias da semana, inclusive feriados."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Cartões de Crédito Bradesco (Pessoa Física e Jurídica)",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Cartões de Crédito Bradesco (Pessoa Física e Jurídica)",
-					"header": "Meios de Comunicação",
-					"title": "Nacional, Internacional, Gold e Empresarial",
-					"phones": 
-					[
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "4002 0022"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"title": "Prime, Infinite, Platinum e In Visa Veritas:",
-					"phones": 
-					[
-						{
-							"name": "São Paulo e grande São Paulo:",
-							"number": "3338 2822",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais regiões",
-							"number": "0800 0164 163"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"title": "MasterCard Black:",
-					"phones": 
-					[
-						{
-							"name": "São Paulo e grande São Paulo:",
-							"number": "3367 9700",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais regiões:",
-							"number": "0800 704 2000"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Comercialização:",
-							"number": "0800 701 7575"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"title": "Cobrança/Renegociação de Dívida",
-					"subtitle": "Débito em conta corrente:",
-					"footer": "Aceita ligações a cobrar, exceto de celular",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "3670 5090",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"subtitle": "Débito por fatura:",
-					"phones": 
-					[
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "4004 5090"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais regiões:",
-							"number": "0800 722 5090"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Prestação de serviços, informações e dúvidas em geral sobre o cartão de crédito Bradesco."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Todos os dias,24h, exceto as seguintes centrais: <br />Comercialização:<br />De segunda a sexta-feira, das 08h00 às 20h00 e aos sábados, das 10h às 16h."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Comercialização:",
-					"subtitle": "De segunda a sexta-feira, das 08h00 às 20h00 e aos sábados, das 10h às 16h."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Cobrança / Renegociação de dívida:",
-					"subtitle": "Comercialização: <br /><b>Debito em conta corrente:</b> De segunda a sexta-feira, das 08h00 às 20h.<br /><b>Debito por fatura:</b> De segunda a sexta-feira, das 08h às 20h, aos sábados, das 09h às 15h."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Cartões de Crédito American Express (Amex)",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Cartões de Crédito American Express (Amex)",
-					"header": "Central de atendimento:",
-					"phones": 
-					[
-						{
-							"linktitle": "Meios de Comunicação"
-						},
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "4004 2639"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais localidades:",
-							"number": "0800 726 2639"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Ligações a cobrar do Exterior:",
-							"number": "2102 6266",
-							"prefix": "(55) 34"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Comercialização:",
-					"subtitle": "Por meio da agência detentora da conta ou pela central de comercialização:"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"number": "0800 728 1010"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Prestação de serviços, informações e dúvidas em geral sobre o cartão de crédito Amex."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Central de atendimento:<br />Todos os dias, 24 horas."
-				},
-				{
-					"type": "header",
-					"title": "Comercialização:",
-					"subtitle": "Todos os dias, das 08h00 às 22h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Antecipação de Recebíveis",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Antecipação de Recebíveis",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "São Paulo e Grande São Paulo:",
-							"number": "4004 4434",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais regiões:",
-							"number": "0800 722 4434"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Antecipar o recebimento do valor da compra realizada pelo cliente no estabelecimento."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 09h00 às 17h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Private",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Bradesco Private Bank",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "São Paulo:",
-							"number": "2178 4044",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Rio de Janeiro:",
-							"number": "2554 0650",
-							"prefix": "(21)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços referentes ao Segmento Private."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Dias úteis, das 08h30 às 18h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Bradesco Prime Digital",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Bradesco Prime Digital",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "3366 0088",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços aos clientes Bradesco Prime Digital."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Todos os dias, das 08h00 às 20h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Bradesco Digital",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Bradesco Digital",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "3357 0900",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços aos clientes Bradesco Digital."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário Pessoa Física",
-					"subtitle": "Todos os dias, das 08h30 às 20h00."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário Pessoa Jurídica",
-					"subtitle": "De segunda a sexta-feira, das 08h00 às 19h00."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário Cliente Investidor",
-					"subtitle": "De segunda a sexta-feira, das 08h00 às 18h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Consórcios",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Consórcios",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "4004 4436"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais Localidades:",
-							"number": "0800 722 4436"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços aos clientes da Bradesco Consórcios."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 08h00 às 20h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Capitalização",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Capitalização",
-					"phones": 
-					[
-    				{
-				    	"linktitle": "Fale Conosco",
-				    	"link": "Acesse o Fale Conosco no bradesco.com.br para registrar reclamações, obter informação e enviar sugestões ou elogios."
-				    },
-    				{
-				    	"linktitle": "Central de Relacionamento",
-				    	"link": "2ª via de título, consulta da data de débito, informações sobre a situação de Título."
-				    },
-						{
-							"name": "Capitais e regiões metropolitanas:",
-							"number": "4004 4436"
-						},
-						{
-							"name": "Demais localidades:",
-							"number": "0800 570 0022"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"footer": "Atendimento 24 horas, 7 dias por semana.",
-					"phones": 
-					[
-						{
-							"name": "SAC - Serviço de apoio ao Cliente Bradesco Capitalização Cancelamentos, reclamações e informações:",
-							"number": "0800 721 1155"
-						},
-						{
-							"name": "Atendimento exclusivo à pessoa com deficiência auditiva ou de fala:",
-							"number": "0800 722 0099"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Ouvidoria:",
-							"number": "0800 701 7000"
-						}
-					]
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Vida e Previdência",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Vida e Previdência",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"linktitle": "Finalidade",
-							"link": "Informação e Adesão"
-						},
-						{
-							"linktitle": "Horário",
-							"link": "Dias úteis das 07h30 às 19h30"
-						},
-						{
-							"name": "Capitais e Regiões Metropolitanas:",
-							"number": "4002 0022"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Demais localidades:",
-							"number": "0800 011 1199"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Fax:",
-							"number": "3684 2151"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "email",
-					"title": "E-mail",
-					"link": "previdencia@bradesco.com.br"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"header": "Cidades com telefones específicos",
-					"phones": 
-					[
-						{
-							"name": "Anápolis:",
-							"number": "3310 5800",
-							"prefix": "(62)"
-						},
-						{
-							"name": "Blumenau:",
-							"number": "3326 1600",
-							"prefix": "(47)"
-						}
-					]
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Seguros",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Seguros",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Acidentes Pessoais:",
-							"number": "0800 701 2703"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"number": "0800 701 8466"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"number": "0800 701 2780"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Vida:",
-							"number": "0800 701 2703"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"number": "0800 701 8466"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Automóvel / Bilhete Residencial:",
-							"number": "0800 701 8466"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Vida Segura / Vida Máxima Mulher:",
-							"number": "0800 701 2704"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Alô Bradesco Seguros:",
-							"number": "0800 701 7000"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços aos seguros disponibilizados pela Bradesco Seguros."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 08h00 às 20h00, aos sábados, das 08h00 às 14h00.<br />Para Assistência Dia e Noite (Bilhete Residencial), o atendimento ocorre todos os dias 24h."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Saúde Bradesco",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Saúde Bradesco",
-					"header": "Meios de Comunicação",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "0800 701 2700"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "phone_description",
-					"phones": 
-					[
-						{
-							"name": "Fax:",
-							"number": "2503 1174",
-							"prefix": "(21)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "email",
-					"title": "E-mail",
-					"link": "bseguros@bradescoseguros.com.br"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações sobre tratamento e solicitação de planos de saúde"
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Dias úteis, das 08h00 às 18h00."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Assistência Funeral",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Assistência Funeral",
-					"header": "<b>Meios de Comunicação</b>",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "0800 017 9798"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Esclarecimento de dúvidas, informações e serviços referentes à assistência funeral."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Todos os dias, 24 horas."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Banco Central",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Banco Central",
-					"header": "<b>Meios de Comunicação</b>",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "0800 979 2345"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "De segunda a sexta-feira, das 09h00 às 16h00, horário de Brasília."
-				}
-			]
-		},		
-		{
-			"type": "divider"
-		},
-		{
-			"type": "expand",
-			"header": "Serasa",
-			"usefulphones": 
-			[
-				{
-					"type": "phone_description",
-					"second_title": "Serasa",
-					"header": "<b>Meios de Comunicação</b>",
-					"phones": 
-					[
-						{
-							"name": "Todo território nacional:",
-							"number": "3373 7272",
-							"prefix": "(11)"
-						}
-					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Todos os dias, 24 horas."
-				}
-			]
-		},		
 		{
 			"type": "divider"
 		}
