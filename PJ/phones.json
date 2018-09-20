@@ -1058,11 +1058,10 @@
 				{
 					"type": "phone_description",
 					"second_title": "Consórcios",
-					"header": "Meios de Comunicação",
 					"phones": 
 					[
 						{
-							"name": "Capitais e regiões metropolitanas:",
+							"name": "Meios de Comunicação<br>Capitais e regiões metropolitanas:</br>",
 							"number": "4004 4436"
 						}
 					]
