@@ -913,11 +913,10 @@
 				{
 					"type": "phone_description",
 					"second_title": "Bradesco Private Bank",
-					"header": "Meios de Comunicação",
 					"phones": 
 					[
 						{
-							"name": "São Paulo:",
+							"name": "Meios de Comunicação<br>São Paulo:</br>",
 							"number": "2178 4044",
 							"prefix": "(11)"
 						}
