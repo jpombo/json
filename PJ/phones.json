@@ -773,11 +773,10 @@
 				{
 					"type": "phone_description",
 					"second_title": "Cartões de Crédito American Express (Amex)",
-					"header": "Central de atendimento:",
 					"phones": 
 					[
 						{
-							"linktitle": "Meios de Comunicação"
+							"linktitle": "Meios de Comunicação<br>Central de atendimento:</br>"
 						},
 						{
 							"name": "Capitais e regiões metropolitanas:",
