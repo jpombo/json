@@ -271,7 +271,7 @@
 				{
 					"type": "link_description",
 					"title": "Solicite uma proposta agora!",
-					"link": "www.google.com"
+					"link": "m.alelopme.com.br"
 				},
 				{
 					"type": "divider"
@@ -773,10 +773,12 @@
 				{
 					"type": "phone_description",
 					"second_title": "Cartões de Crédito American Express (Amex)",
-					"header": "Meios de Comunicação",
-					"title": "Central de atendimento:",
+					"header": "Central de atendimento:",
 					"phones": 
 					[
+						{
+							"linktitle": "Meios de Comunicação"
+						},
 						{
 							"name": "Capitais e regiões metropolitanas:",
 							"number": "4004 2639"
@@ -1179,6 +1181,14 @@
 					"phones": 
 					[
 						{
+							"linktitle": "Finalidade",
+							"link": "Informação e Adesão"
+						},
+						{
+							"linktitle": "Horário",
+							"link": "Dias úteis das 07h30 às 19h30"
+						},
+						{
 							"name": "Capitais e Regiões Metropolitanas:",
 							"number": "4002 0022"
 						}
@@ -1209,22 +1219,6 @@
 							"number": "3684 2151"
 						}
 					]
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Finalidade",
-					"subtitle": "Informação e Adesão."
-				},
-				{
-					"type": "divider"
-				},
-				{
-					"type": "header",
-					"title": "Horário",
-					"subtitle": "Dias úteis das 07h30 às 19h30."
 				},
 				{
 					"type": "divider"
