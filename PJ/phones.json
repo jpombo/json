@@ -965,11 +965,11 @@
 				{
 					"type": "phone_description",
 					"second_title": "Bradesco Prime Digital",
-					"header": "Meios de Comunicação",
+					"header": "",
 					"phones": 
 					[
 						{
-							"name": "Todo território nacional:",
+							"name": "Meios de Comunicação<br>Todo território nacional:</br>",
 							"number": "3366 0088",
 							"prefix": "(11)"
 						}
