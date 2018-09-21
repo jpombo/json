@@ -199,14 +199,14 @@
 		},
 		{
 			"type": "action_description",
-			"description": "",
+			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
+			"color": "#313131",
+			"font": "fonts/NewJuneBook.otf",
+			"size": "12",
+			"description": "Verificar",
 			"description_color": "#313131",
 			"description_font": "fonts/NewJuneBook.otf",
 			"description_size": "12",
-			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
-			"title_color": "#313131",
-			"title_font": "fonts/NewJuneBook.otf",
-			"title_size": "12",
 			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
 		},
 		{
