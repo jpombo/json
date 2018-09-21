@@ -110,7 +110,7 @@
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
-			"icon_expand": "@drawable/scpup_plus",
+			"icon_expand": "@drawable/scpup_arrow",
 			"usefulphones": [{
 					"type": "text",
 					"title": "Alô Bradesco",
