@@ -191,7 +191,7 @@
 			"size": "12",
 			"link": "previdencia@bradesco.com.br",
 			"link_color": "#313131",
-			"link_font": "NewJuneBook",
+			"link_font": "fonts/NewJuneBook.otf",
 			"link_size": "12"
 		},
 		{
@@ -201,11 +201,11 @@
 			"type": "action_description",
 			"description": "",
 			"description_color": "#313131",
-			"description_font": "NewJuneBook",
+			"description_font": "fonts/NewJuneBook.otf",
 			"description_size": "12",
 			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
 			"title_color": "#313131",
-			"title_font": "NewJuneBook",
+			"title_font": "fonts/NewJuneBook.otf",
 			"title_size": "12",
 			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
 		},
