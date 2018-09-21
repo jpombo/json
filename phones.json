@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"configs": {
-		"font": "fonts/NewJuneBook.otf",
+		"font": "NewJuneBook.otf",
 		"text_color": "#000000",
 		"size": "16",
 
@@ -29,21 +29,21 @@
 			"type": "text",
 			"title": "<b>CENTRAL DE RELACIONAMENTO</b>",
 			"color": "#D71D32",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "18"
 		},
 		{
 			"type": "text",
 			"title": "Cliente Pessoa Júridica",
 			"color": "#D71D32",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "16"
 		},
 		{
 			"type": "text",
 			"title": "Para transações, consultas e contratações:",
 			"color": "#313131",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "16"
 		},
 		{
@@ -70,21 +70,21 @@
 			"type": "text",
 			"title": "<b>SAC</b>",
 			"color": "#D71D32",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "18"
 		},
 		{
 			"type": "text",
 			"title": "Serviço de Atendimento ao Consumidor",
 			"color": "#D71D32",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "16"
 		},
 		{
 			"type": "text",
 			"title": "Para transações, consultas e contratações:",
 			"color": "#313131",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "16"
 		},
 		{
@@ -103,7 +103,7 @@
 			"type": "collapse",
 			"title": "<b>MAIS TELEFONES</b>",
 			"color": "#D71D32",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "18",
 			"icon_collapse_open": "",
 			"icon_collapse_close": "",
@@ -112,7 +112,7 @@
 					"type": "text",
 					"title": "Alô Bradesco Ouvidoria",
 					"color": "#D71D32",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "18"
 				},
 				{
@@ -126,7 +126,7 @@
 					"type": "text",
 					"title": "Cancelamento, Reclamações e informações",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -143,7 +143,7 @@
 					"type": "text",
 					"title": "Atendimento 24h, 7 dias por semana",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -160,7 +160,7 @@
 					"type": "text",
 					"title": "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados.",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				}
 			]
@@ -172,22 +172,22 @@
 			"type": "expand",
 			"title": "Alô Bradesco / Ouvidoria",
 			"color": "#6c8790",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "16",
-			"icon_expand": "@drawable/scpup_plus",
+			"icon_expand": "scpup_plus",
 			"usefulphones": [
 				{
 					"type": "text",
 					"title": "Alô Bradesco",
 					"color": "#297EF5",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "26"
 				},
 				{
 					"type": "text",
 					"title": "<b>SAC - Serviço de Atendimento ao Consumidor<br>Cancelamentos, Reclamações e Informações</b>",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -203,7 +203,7 @@
 					"type": "text",
 					"title": "<b>Deficiente Auditivo ou de Fala</b>",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -216,7 +216,7 @@
 					"type": "text",
 					"title": "Atendimento 24 horas, 7 dias por semana",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -226,7 +226,7 @@
 					"type": "text",
 					"title": "<b>Ouvidoria</b>",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
@@ -239,7 +239,97 @@
 					"type": "text",
 					"title": "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados",
 					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Fone Fácil Bradesco",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Fone Fácil Bradesco",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "(Realizações de Transações Financeiras)",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "18"
+				},
+				{
+					"type": "text",
+					"title": "Por meio deste canal, você consulta a qualquer momento, o saldo de suas contas e realizar transações bancárias em nosso Atendimento Personalizado, <b>dia e noite, 7 dias por semana:</b>",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Capitais e Regiões Metropolitanas:</b>",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4002 0022"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Demais Regiões:</b>",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 570 0022"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Acesso do Exterior:</b>",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4002 0022",
+						"prefix": "55 11"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "PAra utilizar esse serviço, é necessário que você possua a senha de quatro dígitos, que pode ser cadastrada em sua Agência e a Chave de Segurança Bradesco (Eletrônica ou Cartão).",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
 					"size": "16"
 				}
 			]
@@ -251,7 +341,7 @@
 			"type": "link_description",
 			"title": "Solicite uma proposta agora!",
 			"color": "#313131",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "12",
 			"link": "m.alelopme.com.br"
 		},
@@ -262,11 +352,11 @@
 			"type": "email",
 			"title": "E-mail",
 			"color": "#313131",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "12",
 			"link": "previdencia@bradesco.com.br",
 			"link_color": "#D71D32",
-			"link_font": "fonts/NewJuneBook.otf",
+			"link_font": "NewJuneBook.otf",
 			"link_size": "12"
 		},
 		{
@@ -276,11 +366,11 @@
 			"type": "action_description",
 			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
 			"color": "#313131",
-			"font": "fonts/NewJuneBook.otf",
+			"font": "NewJuneBook.otf",
 			"size": "12",
 			"description": "Verificar",
 			"description_color": "#FFFFFF",
-			"description_font": "fonts/NewJuneBook.otf",
+			"description_font": "NewJuneBook.otf",
 			"description_size": "12",
 			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
 		},
