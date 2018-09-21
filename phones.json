@@ -1,7 +1,7 @@
 {
 	"version": 1,
 	"configs": {
-		"font": "NewJuneBook",
+		"font": "fonts/NewJuneBook.otf",
 		"text_color": "#000000",
 		"size": "10",
 
@@ -28,21 +28,21 @@
 			"type": "text",
 			"title": "CENTRAL DE RELACIONAMENTO",
 			"color": "#D71D32",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "16"
 		},
 		{
 			"type": "text",
 			"title": "Cliente Pessoa Júridica",
 			"color": "#D71D32",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "14"
 		},
 		{
 			"type": "text",
 			"title": "Para transações, consultas e contratações:",
 			"color": "#000000",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "14"
 		},
 		{
@@ -72,7 +72,7 @@
 			"action": "collapse",
 			"title": "MAIS TELEFONES",
 			"color": "#D71D32",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
 			"icon_collapse_open": "",
 			"icon_collapse_close": "",
@@ -80,7 +80,7 @@
 					"type": "text",
 					"title": "Alô Bradesco Ouvidoria",
 					"color": "#D71D32",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "14"
 				},
 				{
@@ -94,7 +94,7 @@
 					"type": "text",
 					"title": "Cancelamento, Reclamações e informações",
 					"color": "#000000",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "12"
 				},
 				{
@@ -110,21 +110,21 @@
 			"action": "expand",
 			"title": "Alô Bradesco / Ouvidoria",
 			"color": "#D71D32",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
 			"icon_expand": "",
 			"usefulphones": [{
 					"type": "text",
 					"title": "Alô Bradesco",
 					"color": "#297EF5",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "16"
 				},
 				{
 					"type": "text",
 					"title": "SAC - Serviço de Atendimento ao Consumidor",
 					"color": "#000000",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "14"
 				},
 
@@ -132,7 +132,7 @@
 					"type": "text",
 					"title": "Canelamentos, Reclamações e informações",
 					"color": "#000000",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "14"
 				},
 				{
@@ -148,7 +148,7 @@
 					"type": "text",
 					"title": "Deficiente Auditivo ou de Fala",
 					"color": "#000000",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "14"
 				},
 				{
@@ -161,7 +161,7 @@
 					"type": "text",
 					"title": "Atendimento 24 horas, 7 dias por semana",
 					"color": "#000000",
-					"font": "NewJuneBook",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "14"
 				},
 				{
@@ -176,7 +176,7 @@
 			"type": "link_description",
 			"title": "Solicite uma proposta agora!",
 			"color": "#313131",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "12",
 			"link": "m.alelopme.com.br"
 		},
@@ -187,7 +187,7 @@
 			"type": "email",
 			"title": "E-mail",
 			"color": "#313131",
-			"font": "NewJuneBook",
+			"font": "fonts/NewJuneBook.otf",
 			"size": "12",
 			"link": "previdencia@bradesco.com.br",
 			"link_color": "#313131",
