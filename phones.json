@@ -171,31 +171,24 @@
 		{
 			"type": "expand",
 			"title": "Alô Bradesco / Ouvidoria",
-			"color": "#D71D32",
+			"color": "#6c8790",
 			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
 			"icon_expand": "@drawable/scpup_plus",
-			"usefulphones": [{
+			"usefulphones": [
+				{
 					"type": "text",
 					"title": "Alô Bradesco",
 					"color": "#297EF5",
 					"font": "fonts/NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>SAC - Serviço de Atendimento ao Consumidor<br>Cancelamentos, Reclamações e Informações</b>",
+					"color": "#000000",
+					"font": "fonts/NewJuneBook.otf",
 					"size": "16"
-				},
-				{
-					"type": "text",
-					"title": "SAC - Serviço de Atendimento ao Consumidor",
-					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
-					"size": "14"
-				},
-
-				{
-					"type": "text",
-					"title": "Canelamentos, Reclamações e informações",
-					"color": "#000000",
-					"font": "fonts/NewJuneBook.otf",
-					"size": "14"
 				},
 				{
 					"type": "phones",
@@ -208,10 +201,10 @@
 				},
 				{
 					"type": "text",
-					"title": "Deficiente Auditivo ou de Fala",
+					"title": "<b>Deficiente Auditivo ou de Fala</b>",
 					"color": "#000000",
 					"font": "fonts/NewJuneBook.otf",
-					"size": "14"
+					"size": "16"
 				},
 				{
 					"type": "phones",
@@ -224,10 +217,30 @@
 					"title": "Atendimento 24 horas, 7 dias por semana",
 					"color": "#000000",
 					"font": "fonts/NewJuneBook.otf",
-					"size": "14"
+					"size": "16"
 				},
 				{
 					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Ouvidoria</b>",
+					"color": "#000000",
+					"font": "fonts/NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 722 9933"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados",
+					"color": "#000000",
+					"font": "fonts/NewJuneBook.otf",
+					"size": "16"
 				}
 			]
 		},
