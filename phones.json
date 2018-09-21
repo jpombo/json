@@ -148,7 +148,7 @@
 				},
 				{
 					"type": "divider"
-				}
+				},
 				{
 					"type": "phones",
 					"phones": [{
@@ -162,7 +162,7 @@
 					"color": "#000000",
 					"font": "fonts/NewJuneBook.otf",
 					"size": "16"
-				},
+				}
 			]
 		},
 		{
