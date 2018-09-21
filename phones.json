@@ -68,8 +68,7 @@
 			"type": "divider"
 		},
 		{
-			"type": "group",
-			"action": "collapse",
+			"type": "collapse",
 			"title": "MAIS TELEFONES",
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
@@ -106,8 +105,7 @@
 			"type": "divider"
 		},
 		{
-			"type": "group",
-			"action": "expand",
+			"type": "expand",
 			"title": "Alô Bradesco / Ouvidoria",
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
