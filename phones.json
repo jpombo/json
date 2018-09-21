@@ -21,7 +21,7 @@
 		"icon_expand": "scpup_plus",
 		"icon_action_description": "scpup_arrow",
 
-		"dividercolor": "#cbcbcb"
+		"divider_color": "#cbcbcb"
 
 	},
 	"usefulphones": [{
