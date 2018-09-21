@@ -2,18 +2,27 @@
 	"version": 1,
 	"configs": {
 		"font": "NewJuneBook",
+		"text_color": "#000000",
+		"size": "10",
+
 		"background": "#FFFFFF",
-		"textcolor": "#313131",
+
+		"phone_icon": "scpup_ic_phone_img",
+		"phone_text_color": "#000000",
+		"phone_number_color": "#FFFFFF",
+
 		"background_start": "#779099",
 		"background_end": "#647e84",
-		"linkcolor": "#D71D32",
-		"icon": "scpup_ic_phone_img",
-		"dividercolor": "#cbcbcb",
-		"size": "12",
-		"icon_collapse_open": "",
-		"icon_collapse_close": "",
-		"icon_expand": "",
-		"icon_action_description": ""
+
+		"link_color": "#D71D32",
+
+		"icon_collapse_open": "scpup_plus",
+		"icon_collapse_close": "scpup_arrow",
+		"icon_expand": "scpup_plus",
+		"icon_action_description": "scpup_arrow",
+
+		"dividercolor": "#cbcbcb"
+
 	},
 	"usefulphones": [{
 			"type": "text",
@@ -103,8 +112,7 @@
 			"color": "#D71D32",
 			"font": "NewJuneBook",
 			"size": "16",
-			"icon_collapse_open": "",
-			"icon_collapse_close": "",
+			"icon_expand": "",
 			"usefulphones": [{
 					"type": "text",
 					"title": "Alô Bradesco",
@@ -178,9 +186,9 @@
 		{
 			"type": "email",
 			"title": "E-mail",
-			"title_color": "#313131",
-			"title_font": "NewJuneBook",
-			"title_size": "12",
+			"color": "#313131",
+			"font": "NewJuneBook",
+			"size": "12",
 			"link": "previdencia@bradesco.com.br",
 			"link_color": "#313131",
 			"link_font": "NewJuneBook",
