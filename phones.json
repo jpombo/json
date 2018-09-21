@@ -3,12 +3,12 @@
 	"configs": {
 		"font": "fonts/NewJuneBook.otf",
 		"text_color": "#000000",
-		"size": "10",
+		"size": "12",
 
 		"background": "#FFFFFF",
 
 		"phone_icon": "scpup_ic_phone_img",
-		"phone_text_color": "#000000",
+		"phone_text_color": "#313131",
 		"phone_number_color": "#FFFFFF",
 
 		"background_start": "#779099",
@@ -24,43 +24,75 @@
 		"divider_color": "#cbcbcb"
 
 	},
-	"usefulphones": [{
+	"usefulphones": [
+		{
 			"type": "text",
-			"title": "CENTRAL DE RELACIONAMENTO",
+			"title": "<b>CENTRAL DE RELACIONAMENTO</b>",
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
-			"size": "16"
+			"size": "18"
 		},
 		{
 			"type": "text",
 			"title": "Cliente Pessoa Júridica",
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
-			"size": "14"
+			"size": "16"
 		},
 		{
 			"type": "text",
 			"title": "Para transações, consultas e contratações:",
-			"color": "#000000",
+			"color": "#313131",
 			"font": "fonts/NewJuneBook.otf",
-			"size": "14"
+			"size": "16"
 		},
 		{
 			"type": "phones",
 			"phones": [{
-					"name": "Capitais e regiões metropolitanas (Opção 5)",
-					"number": "3003 1000",
-					"prefix": ""
+					"name": "<b>Capitais e regiões metropolitanas (Opção 5)</b>",
+					"number": "3003 1000"
 				},
 				{
-					"name": "Demais localidades",
-					"number": "0800 202 1000",
-					"prefix": ""
+					"name": "<b>Demais localidades</b>",
+					"number": "0800 202 1000"
 				},
 				{
-					"name": "Acesso do exterior",
+					"name": "<b>Acesso do exterior</b>",
 					"number": "3003 1000",
 					"prefix": "(55) 11 "
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "text",
+			"title": "<b>SAC</b>",
+			"color": "#D71D32",
+			"font": "fonts/NewJuneBook.otf",
+			"size": "18"
+		},
+		{
+			"type": "text",
+			"title": "Serviço de Atendimento ao Consumidor",
+			"color": "#D71D32",
+			"font": "fonts/NewJuneBook.otf",
+			"size": "16"
+		},
+		{
+			"type": "text",
+			"title": "Para transações, consultas e contratações:",
+			"color": "#313131",
+			"font": "fonts/NewJuneBook.otf",
+			"size": "16"
+		},
+		{
+			"type": "phones",
+			"phones": [
+				{
+					"name": "<b>24h por dia, 7 dias por semana</b>",
+					"number": "0800 704 8383"
 				}
 			]
 		},
