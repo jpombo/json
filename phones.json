@@ -73,8 +73,8 @@
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
-			"icon_collapse_open": "",
-			"icon_collapse_close": "",
+			"icon_collapse_open": "@drawable/scpup_plus",
+			"icon_collapse_close": "@drawable/scpup_plus",
 			"usefulphones": [{
 					"type": "text",
 					"title": "Alô Bradesco Ouvidoria",
@@ -110,7 +110,7 @@
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
 			"size": "16",
-			"icon_expand": "@drawable/scpup_arrow",
+			"icon_expand": "@drawable/scpup_plus",
 			"usefulphones": [{
 					"type": "text",
 					"title": "Alô Bradesco",
