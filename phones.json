@@ -204,7 +204,7 @@
 			"font": "fonts/NewJuneBook.otf",
 			"size": "12",
 			"description": "Verificar",
-			"description_color": "#313131",
+			"description_color": "#FFFFFF",
 			"description_font": "fonts/NewJuneBook.otf",
 			"description_size": "12",
 			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
