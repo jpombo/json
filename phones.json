@@ -3,7 +3,7 @@
 	"configs": {
 		"font": "fonts/NewJuneBook.otf",
 		"text_color": "#000000",
-		"size": "12",
+		"size": "16",
 
 		"background": "#FFFFFF",
 
