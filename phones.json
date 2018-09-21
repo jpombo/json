@@ -101,23 +101,24 @@
 		},
 		{
 			"type": "collapse",
-			"title": "MAIS TELEFONES",
+			"title": "<b>MAIS TELEFONES</b>",
 			"color": "#D71D32",
 			"font": "fonts/NewJuneBook.otf",
-			"size": "16",
+			"size": "18",
 			"icon_collapse_open": "",
 			"icon_collapse_close": "",
-			"usefulphones": [{
+			"usefulphones": [
+				{
 					"type": "text",
 					"title": "Alô Bradesco Ouvidoria",
 					"color": "#D71D32",
 					"font": "fonts/NewJuneBook.otf",
-					"size": "14"
+					"size": "18"
 				},
 				{
 					"type": "phones",
 					"phones": [{
-						"name": "SAC - Serviço de Atendimento ao Consumidor",
+						"name": "<b>SAC - Serviço de Atendimento ao Consumidor</b>",
 						"number": "0800 704 8383"
 					}]
 				},
@@ -126,11 +127,42 @@
 					"title": "Cancelamento, Reclamações e informações",
 					"color": "#000000",
 					"font": "fonts/NewJuneBook.otf",
-					"size": "12"
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"name": "<b>Deficientes Auditivos ou de Fala</b>",
+						"number": "0800 704 8383"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Atendimento 24h, 7 dias por semana",
+					"color": "#000000",
+					"font": "fonts/NewJuneBook.otf",
+					"size": "16"
 				},
 				{
 					"type": "divider"
 				}
+				{
+					"type": "phones",
+					"phones": [{
+						"name": "<b>Ouvidoria</b>",
+						"number": "0800 704 8383"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Atendimento de segunda a sexta-feira das 8h às 18h, exceto feriados.",
+					"color": "#000000",
+					"font": "fonts/NewJuneBook.otf",
+					"size": "16"
+				},
 			]
 		},
 		{
