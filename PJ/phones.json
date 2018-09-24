@@ -1755,15 +1755,15 @@
 				},
 				{
 					"type": "text",
-					"title": "Acesse o Fale Conosco (link abaixo) para registrar reclamações, obter informações e enviar sugestões ou elogios.",
+					"title": "Acesse o Fale Conosco para registrar reclamações, obter informações e enviar sugestões ou elogios.",
 					"color": "#313131",
 					"font": "NewJuneBook.otf",
 					"size": "16"
 				},
 				{
 					"type": "link_description",
-					"title": "Fale Conosco",
-					"color": "#313131",
+					"title": "<b>Acesse o Fale Conosco</b>",
+					"color": "#E50934",
 					"font": "NewJuneBook.otf",
 					"size": "12",
 					"link": "http://www.bradesco.com.br"
@@ -1868,43 +1868,8 @@
 		{
 			"type": "divider"
 		},
-		{
-			"type": "link_description",
-			"title": "Solicite uma proposta agora!",
-			"color": "#313131",
-			"font": "NewJuneBook.otf",
-			"size": "12",
-			"link": "m.alelopme.com.br"
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "email",
-			"title": "E-mail",
-			"color": "#313131",
-			"font": "NewJuneBook.otf",
-			"size": "12",
-			"link": "previdencia@bradesco.com.br",
-			"link_color": "#D71D32",
-			"link_font": "NewJuneBook.otf",
-			"link_size": "12"
-		},
-		{
-			"type": "divider"
-		},
-		{
-			"type": "action_description",
-			"title": "Se sua reclamação foi tratada, mas a solução apresentada não foi satisfatória:",
-			"color": "#313131",
-			"font": "NewJuneBook.otf",
-			"size": "12",
-			"description": "Verificar",
-			"description_color": "#FFFFFF",
-			"description_font": "NewJuneBook.otf",
-			"description_size": "12",
-			"link": "https://banco.bradesco/html/classic/atendimento/fale-conosco/ouvidoria/index.shtm?param=ouvidoria&origin=app"
-		},
+
+
 		{
 			"type": "divider"
 		}
