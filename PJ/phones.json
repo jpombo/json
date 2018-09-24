@@ -326,6 +326,9 @@
 					}]
 				},
 				{
+					"type": "divider"
+				},
+				{
 					"type": "text",
 					"title": "Para utilizar esse serviço, é necessário que você possua a senha de quatro dígitos, que pode ser cadastrada em sua Agência e a Chave de Segurança Bradesco (Eletrônica ou Cartão).",
 					"color": "#000000",
@@ -789,6 +792,9 @@
 					"color": "#000000",
 					"font": "NewJuneBook.otf",
 					"size": "16"
+				},
+				{
+					"type": "divider"
 				}
 			]
 		},
@@ -812,7 +818,7 @@
 				},
 				{
 					"type": "text",
-					"title": "Meios de Comunicação",
+					"title": "<b>Meios de Comunicação</b>",
 					"color": "#000000",
 					"font": "NewJuneBook.otf",
 					"size": "16"
@@ -826,7 +832,7 @@
 				},
 				{
 					"type": "text",
-					"title": "Capitais e Regiões Metropolitanas:",
+					"title": "<b>Capitais e Regiões Metropolitanas:</b>",
 					"color": "#000000",
 					"font": "NewJuneBook.otf",
 					"size": "16"
@@ -842,7 +848,7 @@
 				},
 				{
 					"type": "text",
-					"title": "Demais Localidades:",
+					"title": "<b>Demais Localidades:</b>",
 					"color": "#000000",
 					"font": "NewJuneBook.otf",
 					"size": "16"
@@ -1629,6 +1635,233 @@
 					"color": "#313131",
 					"font": "NewJuneBook.otf",
 					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Consórcios",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Consórcios",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Capitais e regiões metropolitanas",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4004 4436"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "Demais Localidades",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 722 4436"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços aos clientes da Bradesco Consórcios.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 08h00 as 20h00.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Capitalização",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Capitalização",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Fale Conosco</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Acesse o Fale Conosco (link abaixo) para registrar reclamações, obter informações e enviar sugestões ou elogios.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "link_description",
+					"title": "Fale Conosco",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "12",
+					"link": "http://www.bradesco.com.br"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Central de Relacionamento</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "2ª via de títulos, consulta de data de débito, informações sobre a situação de Títulos.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Capitais e regiões metropolitanas</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4002 0022"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "<b>Demais localidades</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 570 0022"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "SAC - Serviço de Apoio ao Cliente Bradesco Capitalização Cancelamentos, reclamações e informações",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 721 1155"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "<b>Atendimento exclusivo à pessoas com deficiência auditiva ou de fala</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 722 0099"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "Atendimento 24 horas, 7 dias por semana",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Ouvidoria</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 7000"
+					}]
 				}
 			]
 		},
