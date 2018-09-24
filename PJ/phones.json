@@ -1269,6 +1269,264 @@
 			"type": "divider"
 		},
 		{
+			"type": "expand",
+			"title": "Antecipação de Recebíveis",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Antecipação de Recebíveis",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "Meios de Comunicação",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>São Paulo e Grande São Paulo</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4004 4434",
+						"prefix": "(11)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Demais regiões</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 722 4434"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Antecipar o recebimento do valor da compra realizada pelo cliente no estabelecimento.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 09h00 às 17h00",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Private",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Bradesco Private Bank",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "São Paulo",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "2178 4044",
+						"prefix": "(11)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "Rio de Janeiro",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "2554 0650",
+						"prefix": "(21)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços referentes ao Segmento Private.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Dias úteis, das 08h30 às 18h00",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Bradesco Prime Digital",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Bradesco Prime Digital",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Todo território nacional",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3366 0088",
+						"prefix": "(11)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços aos clientes Bradesco Prime Digital.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "12"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Todos os dias, das 08h00 às 20h00.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
 			"type": "link_description",
 			"title": "Solicite uma proposta agora!",
 			"color": "#313131",
