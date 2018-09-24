@@ -1527,6 +1527,115 @@
 			"type": "divider"
 		},
 		{
+			"type": "expand",
+			"title": "Bradesco Digital",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Bradesco Digital",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "Meios de Comunicação",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Todo território nacional</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3357 0900",
+						"prefix": "(11)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços aos clientes Bradesco Digital.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário Pessoa Física</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Todos os dias, das 08h30 às 20h00.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário Pessoa Jurídica</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 08h00 às 19h00.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário Cliente Investidor</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 08h00 às 18h00.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
 			"type": "link_description",
 			"title": "Solicite uma proposta agora!",
 			"color": "#313131",
