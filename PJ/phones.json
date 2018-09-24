@@ -1868,8 +1868,617 @@
 		{
 			"type": "divider"
 		},
-
-
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Vida e Previdência",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Vida e Previdência",
+					"color": "#297ef5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Informação e Adesão",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Dias úteis das 07h30 às 19h30",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Capitais e Regiões Metropolitanas</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "4002 0022"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Demais Localidades</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 011 1199"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Fax</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3684 2151"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "email",
+					"title": "E-mail",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16",
+					"link": "previdencia@bradesco.com.br",
+					"link_color": "#e50934",
+					"link_font": "NewJuneBook.otf",
+					"link_size": "18"
+				},
+				{
+					"type": "text",
+					"title": "<b>Cidades com telefones específicos</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Anápolis</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3310 5800" ,
+						"prefix": "(62)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Blumenau</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3326 1600" ,
+						"prefix": "(47)"
+					}]
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Seguros",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Seguros",
+					"color": "#297ef5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Acidentes Pessoais:</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 2703"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 8466"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 2780"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Vida:</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 2703"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 8466"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Automóvel/Bilhete Residencial</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 8466"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Vida Segura/Vida Máxima Mulher</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 2704"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Alô Bradesco Seguros</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 7000"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços aos seguros disponibilizados pela Bradesco Seguros.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 08h00 às 20h00, e, aos sábados, das 08h00 às 14h00. Para Assistência Dia e Noite (Bilhete Residencial), o atendimento ocorre todos os dias, 24h.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Saúde Bradesco",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Saúde Bradesco",
+					"color": "#297ef5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Todo território nacional</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 701 2700"
+					}]
+				},
+				{
+					"type": "text",
+					"title": "<b>Fax</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "2503 1174",
+						"prefix": "(21)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "email",
+					"title": "E-mail",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16",
+					"link": "bseguros@bradescoseguros.com.br",
+					"link_color": "#e50934",
+					"link_font": "NewJuneBook.otf",
+					"link_size": "18"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações sobre tratamento e solicitação e solicitação de plano de saúde.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Dias úteis das 08h00 às 18h00",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Assistência Funeral",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Assistência Funeral",
+					"color": "#297ef5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Todo território nacional</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 017 9798"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Finalidade</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Esclarecimento de dúvidas, informações e serviços referentes à assistência funeral.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Todos os dias, 24 horas.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Banco Central",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Banco Central",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Todo território nacional</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "0800 979 2345"
+						}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "De segunda a sexta-feira, das 09h00 às 16h00, horário de Brasília.",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "expand",
+			"title": "Serasa",
+			"color": "#6c8790",
+			"font": "NewJuneBook.otf",
+			"size": "16",
+			"icon_expand": "scpup_plus",
+			"usefulphones": [
+				{
+					"type": "text",
+					"title": "Serasa",
+					"color": "#297EF5",
+					"font": "NewJuneBook.otf",
+					"size": "26"
+				},
+				{
+					"type": "text",
+					"title": "<b>Meios de Comunicação</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "<b>Todo território nacional</b>",
+					"color": "#000000",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "phones",
+					"phones": [{
+						"number": "3373 7272",
+						"prefix": "(11)"
+					}]
+				},
+				{
+					"type": "divider"
+				},
+				{
+					"type": "text",
+					"title": "<b>Horário</b>",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				},
+				{
+					"type": "text",
+					"title": "Todos os dias, 24 horas",
+					"color": "#313131",
+					"font": "NewJuneBook.otf",
+					"size": "16"
+				}
+			]
+		},
 		{
 			"type": "divider"
 		}
